@@ -11,20 +11,20 @@ class Navbar extends Component {
      
       <Container>
           <Row>
-      <Col md={6}><Nav.Link href="#"><h3>Trackboard</h3></Nav.Link></Col>
+      <Col md={6}><Nav.Link href="#"><h2>Trackboard</h2></Nav.Link></Col>
 
       <Col md={6}>
      
-        <Nav className="mr-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+        <Nav>
+      <Nav.Link href="#features">Saika Technologies</Nav.Link>
+      <NavDropdown title="Vinay Chunchu" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Profile</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">Logout</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="#logout">Logout</Nav.Link>
+      <Nav.Link href="#logout">Feedback</Nav.Link>
     </Nav>
 
     </Col>
@@ -33,12 +33,7 @@ class Navbar extends Component {
     
 
     </Container>
-
-    <br/>
-    <br/>
-
-    <Timesheet/>
-
+    
       </div>
     );
   }
